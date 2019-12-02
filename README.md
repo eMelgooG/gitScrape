@@ -16,3 +16,5 @@ For more info about how to install puppeteer click [here](https://www.npmjs.com/
 2. Enter the name you want to search for. 
 
 ![](https://imgur.com/UgFnCGQ.png)
+
+Run and voila... Magic, I know! 
