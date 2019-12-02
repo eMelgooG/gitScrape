@@ -1,5 +1,5 @@
 # GitHub Email Scraper 
-This is a GitHub email scraper using NodeJs and Puppeteer 2.0.0. In order to use it you have to add puppeteer to your project. 
+This is a GitHub email scraper using NodeJs and Puppeteer 2.0.0. In order to use it you have to install puppeteer to the root folder of your project. 
 ```
 npm i puppeteer
 ```
