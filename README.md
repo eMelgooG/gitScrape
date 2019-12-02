@@ -17,4 +17,4 @@ For more info about how to install puppeteer click [here](https://www.npmjs.com/
 
 ![](https://imgur.com/UgFnCGQ.png)
 
-Run and voila... Magic, I know! 
+Now run it and voila... Magic, I know! 
