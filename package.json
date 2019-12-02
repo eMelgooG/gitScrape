@@ -10,7 +10,6 @@
   "author": "Emanuel Adrian Lucaci",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^5.7.12",
     "puppeteer": "^2.0.0"
   }
 }
