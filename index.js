@@ -24,7 +24,7 @@ async function run() {
   await page.click(BUTTON_SELECTOR);
   await page.waitFor(1000);
 
-  const userToSearch = 'Alex';                                                   // enter username 
+  const userToSearch = 'Alex';                                                
   const searchUrl = `https://github.com/search?q=${userToSearch}&type=Users&utf8=%E2%9C%93`;
 
   await page.goto(searchUrl);
