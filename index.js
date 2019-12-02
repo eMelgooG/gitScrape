@@ -1,10 +1,9 @@
 const puppeteer = require('puppeteer');
 const CREDS = require('./creds');
-const User = require('./models/user');
 
 async function run() {
   const browser = await puppeteer.launch({
-    headless: false
+    headless: false                                             // it runs in a normal browser, change to true if you want it headless
   });
 
   const page = await browser.newPage();
@@ -29,7 +28,7 @@ async function run() {
   const searchUrl = `https://github.com/search?q=${userToSearch}&type=Users&utf8=%E2%9C%93`;
 
   await page.goto(searchUrl);
-  await page.waitFor(2 * 1000);
+  await page.waitFor(1000);
 
 
   const LENGTH_SELECTOR_CLASS = '.user-list-item';
@@ -57,7 +56,7 @@ var count = 1;
     try{  name = await lis[i].$eval(nameSelection, nameSelection=>nameSelection.innerText);} catch(e){       
       name = "No name";                                 
     }
-    console.log(count +' -> ' + name + ' --- ' + email);                       // we print the data. We can use an RDBM to store data           
+    console.log(count +' -> ' + name + ' --- ' + email);                       // we print the data. We can use a RDBM to store data           
   count++;
   }
 }
