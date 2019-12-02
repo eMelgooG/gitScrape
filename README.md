@@ -9,6 +9,10 @@ For more info about how to install puppeteer click [here](https://www.npmjs.com/
 ![](https://i.imgur.com/ojIyCwp.gif)
 
 ## How to use it:
-You have to add you login credentials in creds.js. I recommend using a fake account. 
+1. You have to add you login credentials in creds.js. I recommend using a fake account. 
 
 ![](https://imgur.com/LeCEbB2.png)
+
+2. Enter the name you want to search for. 
+
+![](https://imgur.com/UgFnCGQ.png)
