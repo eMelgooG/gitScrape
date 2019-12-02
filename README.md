@@ -1,3 +1,5 @@
-# gitScrape 
+# GitHub Email scraper 
+This is a GitHub email scrapper using NodeJs and Puppeteer 2.0.0.
+![](https://i.imgur.com/ojIyCwp.gif[/img)
 
-![github scraper](https://imgur.com/ojIyCwp)
+## Add you creditens
